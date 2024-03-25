@@ -1,0 +1,155 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 20px #edeaea;
+}
+
+.iconsNav {
+    position: relative;
+    top: 88px;
+    right: 120px;
+}
+
+.cabecalho .icons {
+    width: 30px;
+    padding-right: 10px;
+    position: relative;
+    top: 10px;
+    right: 140px;
+}
+
+.entradaCadastro {
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    bottom: 15px;
+    right: 80px;
+}
+
+.entradaCadastro .usuario {
+    width: 35px;
+    padding-right: 8px;
+}
+
+.cabecalho .logo {
+    width: 200px;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.cabecalho .menu {
+    display: flex;
+}
+
+.cabecalho nav {
+    position: relative;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.menu li {
+    color: #000000;
+    list-style-type: none;
+    position: relative;
+    top: 30px;
+    right: 365px;
+    padding: 50px 10px 25px;
+}
+
+.barraPesquisa {
+    position: relative;
+    top: 40px;
+    left: 50px;
+    border: solid 1px #fa7217;
+    border-radius: 10px;
+    width: 350px;
+    height: 35px;
+    display: flex;
+}
+
+.txtPesquisa {
+    float: left;
+    color: #e28c0b;
+    background-color: transparent;
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 16px;
+    border: none;
+    height: 32px;
+    width: 260px;
+}
+
+.btnPesquisa {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 40px;
+    top: 5px;
+}
+
+.container {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgCarrossel {
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    background-color: #edeaea;
+    flex: 1;
+    height: 300px;
+    padding: 5px 20px 0px 20px;
+}
+
+.estilo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes {
+    font-size: 18px;
+}
+
+.iconRedes {
+    width: 30px;
+    padding-right: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato {
+    position: relative;
+    font-size: 18px;
+}
+
+.whatsapp {
+    width: 30px;
+    margin-left: 45%;
+}
+
+p {
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 800px;
+}
+
+span {
+    position: relative;
+    left: 970px;
+    bottom: 50px;
+}
